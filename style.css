@@ -1,0 +1,183 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid orangered;
+}
+header nav h1{
+    position: absolute;
+    color: orangered;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0 0 20px;
+    padding: 5px;
+    width: 150px;
+    border: solid orangered;
+    border-radius: 6px;
+    float: left;
+    cursor: pointer;
+}
+#check, #btn, #cancel{
+    float: right;
+    font-size: 30px;
+    color: green;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    display: none;
+}
+header nav{
+    position: static;
+    background-color: rgb(247, 242, 242);
+    width: 100%;
+    height: 80px;
+}
+
+header nav ul{
+    float: right;
+    display: inline-flex;
+    margin: 15px 0 0 0;
+}
+header nav ul li{
+    margin: 15px 25px 0 0;
+    list-style: none;
+    font-size: 18px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: darkolivegreen;
+    padding: 15px;
+    border-bottom-width: 20px;
+    transition:  all .3s .2s;
+}
+header nav ul li a:active{
+    font-weight: bold;
+    color: orangered;
+    border-bottom: solid orangered;
+}
+header nav ul li a:hover{
+    font-weight: bold;
+    color: orangered;
+    border-bottom: solid orangered;
+}
+
+/* SECTION - HOME */
+.home{
+    position: static;
+    margin-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+.home img{
+    vertical-align: middle;
+    margin: 20px 0 0 100px;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+
+.home div, img{
+    float: left;
+    width: 500px;
+    height: 500px; 
+}
+.home div{
+    margin: 100px 0 0 100px;
+    padding: 100px 0 0 0;
+    height: auto;
+    text-align: center;
+    line-height:70px;
+}
+.home div h1{
+    color: darkslategray;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding: 20px;   
+    margin: 0;
+    border-bottom: orangered solid 2px;
+}
+.home div h2{
+    color: darkslategray;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 0;
+}
+
+/* ABOUT */
+.about{
+    background: darkslategray;
+    height: 100vh;
+    color: white;
+}
+.about h1{
+    font-size: 60px;
+    margin: auto;
+    padding: 20px;
+    border-bottom: orangered solid 3px;
+    width: 490px;
+}
+.about h2{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: left;
+    margin: 0 5% 0 5%;
+    font-weight: lighter;
+}
+
+/* CONTACT */
+.contact{
+    height: 60vh;
+    background: gainsboro;
+    
+}
+.contact .contact-title{
+    font-size: 40px;
+    margin: auto;
+    padding: 40px 0 15px 0;
+    border-bottom: orangered solid 3px;
+    width: 150px;
+    color: darkslategray;
+}
+
+footer ul{
+    text-align: center;
+    margin: 60px 0 30px 0;
+}
+footer ul li{
+    display: inline-flex;
+    width: 18%;
+}
+
+
+footer ul li a{
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+footer ul li a i{
+    color: orangered;
+    font-size: 21px;
+}
+footer ul li a:hover{
+    font-weight: bold;
+    border-bottom: solid orangered;
+}
+footer p{
+    color: darkslategray;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+
+
+
